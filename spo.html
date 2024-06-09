@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify </title>
+    <link rel="stylesheet" href="logo.svg">
+    <link rel="stylesheet" href="spo.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img src="close.svg" alt="" >
+            </div>
+            
+            
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img width="150" class="invert" src="logo.svg"> </div>
+                <ul>
+                    <li><img  class="invert" src="home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey m-1 p-1">
+                <div class="heading">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff fill="none">
+                        <path d="M7.5 17.5V6.5C7.5 5.56538 7.5 5.09808 7.29904 4.75C7.16739 4.52197 6.97803 4.33261 6.75 4.20096C6.40192 4 5.93462 4 5 4C4.06538 4 3.59808 4 3.25 4.20096C3.02197 4.33261 2.83261 4.52197 2.70096 4.75C2.5 5.09808 2.5 5.56538 2.5 6.5V17.5C2.5 18.4346 2.5 18.9019 2.70096 19.25C2.83261 19.478 3.02197 19.6674 3.25 19.799C3.59808 20 4.06538 20 5 20C5.93462 20 6.40192 20 6.75 19.799C6.97803 19.6674 7.16739 19.478 7.29904 19.25C7.5 18.9019 7.5 18.4346 7.5 17.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12.5 17.5V9.5C12.5 8.56538 12.5 8.09808 12.299 7.75C12.1674 7.52197 11.978 7.33261 11.75 7.20096C11.4019 7 10.9346 7 10 7C9.06538 7 8.59808 7 8.25 7.20096C8.02197 7.33261 7.83261 7.52197 7.70096 7.75C7.5 8.09808 7.5 8.56538 7.5 9.5V17.5C7.5 18.4346 7.5 18.9019 7.70096 19.25C7.83261 19.478 8.02197 19.6674 8.25 19.799C8.59808 20 9.06538 20 10 20C10.9346 20 11.4019 20 11.75 19.799C11.978 19.6674 12.1674 19.478 12.299 19.25C12.5 18.9019 12.5 18.4346 12.5 17.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M18.6795 9.78092C18.3599 8.90175 18.2 8.46217 17.8919 8.20363C17.6902 8.03442 17.4476 7.92127 17.1883 7.87555C16.7922 7.80568 16.3527 7.9658 15.4738 8.28605C14.5959 8.60591 14.157 8.76584 13.8987 9.07376C13.7297 9.2753 13.6166 9.51773 13.5709 9.77675C13.501 10.1725 13.6606 10.6116 13.9799 11.4896L16.3754 18.0781C16.6951 18.9573 16.8549 19.3969 17.163 19.6554C17.3647 19.8246 17.6074 19.9378 17.8666 19.9835C18.2627 20.0534 18.7022 19.8933 19.5812 19.573C20.4591 19.2532 20.898 19.0932 21.1562 18.7853C21.3252 18.5838 21.4383 18.3413 21.484 18.0823C21.5539 17.6866 21.3943 17.2475 21.075 16.3694L18.6795 9.78092Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+                <div class="songList">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; PrivacyCenter</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div> </div>
+                </div>
+            </div>
+        
+           
+        <div class="right border rounded m-1 p-1">
+            <div class="header">
+               <div class="nav">
+                    <div class="hamburgercontainer">
+                        <img width="40" class="invert hamburger" src="hamburger.svg" alt="">
+                    </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke=#ffffff stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff" fill="none">
+                    <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+               
+               </div> 
+               <div class="button" >
+                    <button class="Signupbtn">Sign up</button>
+                    <button class="loginbtn">Login</button>
+               </div>
+
+            </div>
+            <div class="Spotifyplaylist">
+                <h1>Spotify Playlist</h1>
+                <div class="cardContainer">
+                        <div data-folder="cs"  class="card ">
+                            <div  class="play ">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+                                    <circle cx="16" cy="16" r="16" fill="green"/>
+                                    <path d="M18.8906 15.846C18.5371 17.189 16.8667 18.138 13.5257 20.0361C10.296 21.8709 8.6812 22.7884 7.37983 22.4196C6.8418 22.2671 6.35159 21.9776 5.95624 21.5787C5 20.6139 5 18.7426 5 15C5 11.2574 5 9.3861 5.95624 8.42132C6.35159 8.02245 6.8418 7.73288 7.37983 7.58042C8.6812 7.21165 10.296 8.12907 13.5257 9.96393C16.8667 11.86197 18.5371 12.811 18.8906 14.154C19.0365 14.7084 19.0365 15.2916 18.8906 15.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" transform="translate(4, 4)"/>
+                                </svg>
+                                
+                                
+                                
+                                
+                             </div>
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845e1caf170882c6f8a2913e82" alt="op">
+                            <h2>Happy hits</h2>
+                            <p>Hits to boost your mood</p>
+
+                        </div>
+                        <div data-folder="cs" class="card ">
+                            <div  class="play ">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+                                    <circle cx="16" cy="16" r="16" fill="green"/>
+                                    <path d="M18.8906 15.846C18.5371 17.189 16.8667 18.138 13.5257 20.0361C10.296 21.8709 8.6812 22.7884 7.37983 22.4196C6.8418 22.2671 6.35159 21.9776 5.95624 21.5787C5 20.6139 5 18.7426 5 15C5 11.2574 5 9.3861 5.95624 8.42132C6.35159 8.02245 6.8418 7.73288 7.37983 7.58042C8.6812 7.21165 10.296 8.12907 13.5257 9.96393C16.8667 11.86197 18.5371 12.811 18.8906 14.154C19.0365 14.7084 19.0365 15.2916 18.8906 15.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" transform="translate(4, 4)"/>
+                                </svg>
+                                
+                                
+                                
+                            </div>
+                            <img src=data:image/jpeg;base64,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 alt="op">
+                            <h2>Calming Acoustic</h2>
+                            <p>Hits to boost your mood</p>
+
+                        </div>
+                        <div data-folder="cs" class="card ">
+                            <div  class="play ">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="55" height="40">
+                                    <circle cx="16" cy="16" r="16" fill="green"/>
+                                    <path d="M18.8906 15.846C18.5371 17.189 16.8667 18.138 13.5257 20.0361C10.296 21.8709 8.6812 22.7884 7.37983 22.4196C6.8418 22.2671 6.35159 21.9776 5.95624 21.5787C5 20.6139 5 18.7426 5 15C5 11.2574 5 9.3861 5.95624 8.42132C6.35159 8.02245 6.8418 7.73288 7.37983 7.58042C8.6812 7.21165 10.296 8.12907 13.5257 9.96393C16.8667 11.86197 18.5371 12.811 18.8906 14.154C19.0365 14.7084 19.0365 15.2916 18.8906 15.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" transform="translate(4, 4)"/>
+                                </svg>
+                                
+                                
+                                
+                            </div>
+                            <img src="https://www.hindustantimes.com/ht-img/img/2024/05/29/1600x900/pushpa_1716961266759_1716961267310.jpg">
+                            <h2>New Songs</h2>
+                            <p>Hits to boost your mood</p>
+
+                        </div>
+                        <div data-folder="cs"  class="card ">
+                            <div  class="play ">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+                                    <circle cx="16" cy="16" r="16" fill="green"/>
+                                    <path d="M18.8906 15.846C18.5371 17.189 16.8667 18.138 13.5257 20.0361C10.296 21.8709 8.6812 22.7884 7.37983 22.4196C6.8418 22.2671 6.35159 21.9776 5.95624 21.5787C5 20.6139 5 18.7426 5 15C5 11.2574 5 9.3861 5.95624 8.42132C6.35159 8.02245 6.8418 7.73288 7.37983 7.58042C8.6812 7.21165 10.296 8.12907 13.5257 9.96393C16.8667 11.86197 18.5371 12.811 18.8906 14.154C19.0365 14.7084 19.0365 15.2916 18.8906 15.846Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" transform="translate(4, 4)"/>
+                                </svg>
+                                
+                                
+                                
+                                
+                             </div>
+                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrE2nJWHrcvlYbejJGVNtAtR_9q05HgsAzEw&s">                            <h2>Happy hits</h2>
+                            <p>Hits to boost your mood</p>
+                        
+
+                     
+
+                        
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                    <div class="songsinfo">
+                        
+                    </div>
+                  
+                         
+                    <div class="songsbutton">
+                        <img id="previous" src="prev.svg" alt="">
+                        <img id="play" src="play.svg" alt="">
+                        <img id="next" src="next.svg" alt="">
+                    </div>
+                    <div class="timevol">
+                        <div class="songstime">
+
+                         </div>
+                        <div class="volume">
+                        <img width="25px" src="volume.svg" alt="">
+                        <div class="range">
+                            <input type="range" name="volume" id="">
+                        </div>
+                    </div>
+                </div>   
+
+                </div>
+                                                                       
+            </div>
+        </div>
+    </div>
+
+ <script src="script.js" ></script>
+</body>
+
+</html>

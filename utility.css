@@ -1,0 +1,64 @@
+.border{
+    border: 2px solid rgb(255, 2, 2);
+    margin: 3px ;
+
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+
+}
+.bg-grey{
+    background-color:  #121212; ;
+
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-2{
+    margin:50x ;
+}
+.p-1{
+    padding: 10px;
+
+}
+
+/* WebKit-based browsers (Chrome, Safari, newer Edge) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c; /* Dark background for the scrollbar track */
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444; /* Dark gray thumb color */
+    border-radius: 6px;
+    border: 2px solid #2c2c2c; /* Matches track background to create padding around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Slightly lighter on hover */
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin; /* Makes scrollbar thinner */
+    scrollbar-color: #444 #2c2c2c; /* thumb color and track color */
+}
+
+/* Scrollbar customization for other browsers can be added with polyfills or additional styles as needed */
